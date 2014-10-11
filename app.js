@@ -10,7 +10,7 @@ var api = require('./routes/api');
 
 var app = express();
 
-app.use(logger('dev'));
+// app.use(logger('dev'));
 app.use(bodyParser.json({extended: true}));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(cookieParser());
