@@ -1,7 +1,7 @@
 {
   "name": "domofly-simple-arduino-api",
   "description": "A simple api for controlling simple arduino-uno functionality without ethernet shield, using only the serial comunication",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "main": "app.js",
   "scripts": {
     "start": "node domofly.js"
